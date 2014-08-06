@@ -6,12 +6,11 @@ var util = require('util'),
 var port = 8100,
     host = '127.0.0.1'
 
+var middleware = require('./middleware');
+middleware.enableCors(app);
+
 var controllers = require('./controllers');
 controllers.init(app);
-
-
-
-
 
 
 var server = http.createServer(app);
