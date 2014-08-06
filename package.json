@@ -1,7 +1,7 @@
 {
-  "name": "Notes.API.Express",
-  "version": "0.0.1",
-  "description": "An API for the sample Notes app written in NodeJS",
+  "name": "CashmanNotifications.API",
+  "version": "0.1.0",
+  "description": "An API for sending emails from the cashman app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,17 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "express": "~4.8.0",
-    "gulp": "~3.8.7"
+    "gulp": "~3.8.7",
+    "logfmt": "^1.1.2"
   },
   "devDependencies": {
     "nodemon": "~1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }

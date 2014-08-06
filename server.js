@@ -8,6 +8,7 @@ var port = 8100,
 
 var middleware = require('./middleware');
 middleware.enableCors(app);
+middleware.enableLogger(app);
 
 var controllers = require('./controllers');
 controllers.init(app);
